@@ -163,6 +163,37 @@ public class Main
         */
 
         System.out.println(Math.PI);
+        System.out.println(Math.E);
+
+        double result;
+
+        result = Math.pow(2, 5);
+        System.out.println(result);
+
+        result = Math.abs(-48);
+        System.out.println(result);
+
+        result = Math.sqrt(64);
+        System.out.println(result);
+
+        result = Math.round(2.56);
+        System.out.println(result);
+
+        result  = Math.round(2.22);
+        System.out.println(result);
+
+        result = Math.ceil(3.89);
+        System.out.println(result);
+
+        result = Math.floor(4.99);
+        System.out.println(result);
+
+        result  = Math.max(10, 25);
+        System.out.println(result);
+
+        result  = Math.min(10, 25);
+        System.out.println(result);
+
     }
 
 }
