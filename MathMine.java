@@ -78,6 +78,7 @@ public class MathMine
         System.out.println("Circumference: " + circumference + "cm");
         System.out.println("Area: " + area + "cm²");
         System.out.println("Volume: " + volume + "cm" + "\u00B3");
+        System.out.println("Volume: " + volume + "cm³");
 
         System.out.printf("Circumference: %.2fcm\n", circumference);
         System.out.printf("Area: %.2fcm²\n", area);
