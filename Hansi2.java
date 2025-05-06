@@ -27,9 +27,9 @@ public class Hansi2
 
         amount = principal * Math.pow((1 + (rate / compoundPerYear)),(compoundPerYear * timeInYears));
 
-        System.out.printf("The amount after %d years is: $%.2f\n",timeInYears,amount);
+        System.out.printf("The amount after %d year/s is: $%.2f\n",timeInYears,amount);
 
-        System.out.println("The amount after " + timeInYears + " is $" + amount);
+        System.out.println("The amount after " + timeInYears + " year/s is: $" + amount);
 
         scanner.close();
     }
