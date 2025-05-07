@@ -30,6 +30,9 @@ public class Hansi7
         String evenOrOdd = (number % 2 == 0) ? "Even" : "Odd";
         System.out.println(evenOrOdd);
 
+        int  evenOrOdd1 = (number % 2 == 0) ? (number +=2 ) : (number -= 2 );
+        System.out.println(evenOrOdd1);
+
         System.out.print("Enter time: ");
         double time = scanner.nextDouble();
 
