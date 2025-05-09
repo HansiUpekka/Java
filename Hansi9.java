@@ -8,7 +8,7 @@ public class Hansi9
 
         String day;
 
-        System.out.print("Enter the day: ");
+        System.out.print("Enter the day of a week: ");
         day = scanner.nextLine();
 
         switch (day)
