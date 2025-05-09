@@ -36,5 +36,6 @@ public class Hansi9
             default ->
                 System.out.println(day + " is not a day.");
         }
+        scanner.close();
     }
 }
