@@ -40,4 +40,5 @@ public class Hansi16
             System.out.println();
         }
     }
+    scanner.close();
 }
