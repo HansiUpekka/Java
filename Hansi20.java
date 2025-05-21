@@ -36,6 +36,10 @@ public class Hansi20
                 default -> System.out.println("Invalid Choice.");
             }
         }
+        System.out.println("*******************");
+        System.out.println("Thank you !!! Have a Nice Day !!!");
+        System.out.println("*******************");
+        
 
     }
 
